@@ -36,7 +36,7 @@ A smart conversational AI agent that revolutionizes online shopping through natu
 - **Comprehensive Results**: Product details, ratings, prices, and sold amount
 
 ## Architecture Diagram
-![img.png](resources/images/architecture.png)
+![img.png](resources/images/architecture_details.svg)
 
 ## 🛠️ **Technology Stack**
 
