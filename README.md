@@ -46,7 +46,7 @@ A smart conversational AI agent that revolutionizes online shopping through natu
 - **Speech Recognition**: Openai-whisper
 - **Audio Processing**: FFmpeg for audio format conversion and processing
 - **Intent Classification**: Semantic Router with HuggingFace embeddings
-- **Language Model**: Integration-ready for any LLM (OpenAI, Anthropic, etc.)
+- **Language Model**: Groq
 - **Database**: SQL-compatible for product information
 
 ## 🎬 Demo & Screenshots
