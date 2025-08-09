@@ -1,0 +1,13 @@
+groq==0.31.0
+langchain==0.3.27
+langchain-community==0.3.27
+langchain-core==0.3.74
+langchain-huggingface==0.3.1
+langchain-text-splitters==0.3.9
+openai==1.99.3
+openai-whisper==20250625
+python-sql==1.6.0
+semantic-router==0.1.10
+sentence-transformers==5.1.0
+streamlit==1.48.0
+streamlit_mic_recorder==0.0.8
