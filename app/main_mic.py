@@ -20,7 +20,6 @@ def ask(query):
 
 st.set_page_config(page_title="Ecom Bot", page_icon="🛍️", layout="wide")
 st.title("🛍️ Ecom Bot")
-st.title("Ecom Bot")
 
 # Initialize session state for messages
 if "messages" not in st.session_state:
@@ -101,3 +100,4 @@ if current_query:
         st.markdown(response)
 
     st.session_state.messages.append({"role": "assistant", "content": response})
+
