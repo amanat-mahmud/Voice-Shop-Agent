@@ -18,7 +18,9 @@ def ask(query):
     else:
         return "I can only assist with e-commerce questions."
 
-st.title("Daraz Bot")
+st.set_page_config(page_title="Ecom Bot", page_icon="🛍️", layout="wide")
+st.title("🛍️ Ecom Bot")
+st.title("Ecom Bot")
 
 # Initialize session state for messages
 if "messages" not in st.session_state:
@@ -97,4 +99,5 @@ if current_query:
     response = ask(current_query)
     with st.chat_message("assistant"):
         st.markdown(response)
+
     st.session_state.messages.append({"role": "assistant", "content": response})
